@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-shadow: none;
+    font-family: 'Anton', sans-serif;
+}
+
+/* navbar */
+
+.container-fluid{
+    color: black;
+}
+
+.logoInicio img{
+    width: fit-content;
+}
+
+.inicioNomb{
+    color: red !important;
+}
+
+.ingresar{
+    color: red !important;
+    font-size: 1.02rem !important;
+}
+
+.ingresar:hover{
+    color: red !important;
+    letter-spacing: 1px !important;
+}
+.input::placeholder{
+    font-size: 0.8rem;
+    text-align: center !important;
+    letter-spacing: 2px;
+}
+
+.input:focus{
+    box-shadow: 0px 1px 2px 1px red !important;
+}
+
+.btnSearch{
+    border: 1px solid rgb(185, 182, 182) !important;
+    color: red !important;
+    font-size: 1.02rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.btnSearch:hover{
+    background-color: red !important;
+    border: none !important;
+    color: white !important;
+}
+
+/* carrucel */
+
+/* .conteinerEstr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.conteinerEst2{
+    justify-content: center;
+    align-items: center;
+} */
+
+/* peliculas */
+
+
+/*footer*/
+
+.footer{
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+}
+.footer-contenedor{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.f-copi{
+    
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    text-transform: capitalize;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+.f-rd-padre {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.f-rd-padre img{
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
